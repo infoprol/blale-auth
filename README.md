@@ -7,6 +7,21 @@ If you just want to build the plugins, you can choose to ignore integration test
 
     mvn clean install -DskipITs 
 
+## so...
+the below instructions don't seem to work with community edition, and
+i don't think there's any claim in neo4j's docs that it would.
+
+specifically, `dbms.security.auth_provider` is not recognized as
+a config option (or so i divine from the logs).
+
+also, the below seems to imply there's a less simple interface than
+the `AuthPlugin`, so maybe that's something...
+
+however, the plugin loads, and doesn't seem to break normal auth (i can
+log into the browser just fine).
+
+...
+
 ## Install plugins in Neo4j
 Copy the output jar file into the plugins folder of Neo4j Enterprise Edition 3.1 or later:
 
