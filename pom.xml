@@ -38,9 +38,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/neo-technology/neo4j-example-auth-plugins.git</connection>
-    <developerConnection>scm:git:git@github.com:neo-technology/neo4j-example-auth-plugins.git</developerConnection>
-    <url>https://github.com/neo-technology/neo4j-example-auth-plugins</url>
+    <connection>scm:git:git://github.com/infoprol/blale-auth.git</connection>
+    <developerConnection>scm:git:git@github.com:infoprol/blale-auth.git</developerConnection>
+    <url>https://github.com/infoprol/blale-auth</url>
   </scm>
 
   <dependencyManagement>
